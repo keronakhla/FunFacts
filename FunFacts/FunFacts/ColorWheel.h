@@ -11,4 +11,8 @@
 
 @interface ColorWheel : NSObject
 
+@property (strong, nonatomic) NSArray *colors;
+
+- (UIColor *) randomColor;
+
 @end
